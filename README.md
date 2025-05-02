@@ -1,6 +1,4 @@
-Certainly! Here's the complete `README.md` in one single block:
 
-```markdown
 # Tree Awareness - Grid Based Webpage
 
 This is a simple yet impactful webpage designed to raise awareness about the importance of trees and the consequences of deforestation. The page uses a **CSS Grid** layout for responsive design, making it user-friendly on all screen sizes. The goal is to educate users about the destructive effects of tree cutting and motivate them to take action.
@@ -20,8 +18,6 @@ This is a simple yet impactful webpage designed to raise awareness about the imp
 
 ## Folder Structure
 
-```
-
 tree-awareness-website/
 ├── index.html               # Main HTML file
 ├── style.css                # Styles for the layout and design
@@ -29,7 +25,7 @@ tree-awareness-website/
 ├── rightImage.jpg           # Image of a man cutting trees and crying trees
 └── README.md                # Project description and instructions
 
-````
+
 
 ## How to Run Locally
 
@@ -37,13 +33,11 @@ tree-awareness-website/
 
    ```bash
    git clone https://github.com/mukulchauuhan/Awareness-website-using-CSS-Grid
-````
 
 2. Navigate to the project directory:
 
    ```bash
    cd Awareness-website-using-CSS-Grid
-   ```
 
 3. Open the `index.html` file in your preferred web browser.
 
