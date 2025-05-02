@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: rgb(244, 180, 180);
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+/* CSS for the Left Section */
+
+.leftDiv {
+    display: grid;
+    grid-template-rows: 30% 50% 20%;
+}
+
+/* This contains css for logo and Menu */
+.topSubDiv {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.topHead {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: medium;
+    justify-items: right;
+}
+
+.topHead h4 {
+    margin: 8px;
+}
+
+.head1 {
+    font-size: 22px;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+.heading1 {
+    margin: 5px 0px 30px 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+}
+.heading2 {
+    margin: 0px 10px 20px 80px;
+    font-size: 40px;
+}
+.heading3 {
+    margin: 0px 0px 20px 27%;
+    font-size: 30px;
+}
+.heading4 {
+    margin: 0px 10px 20px 170px;
+    font-size: 80px;
+    color: brown;
+}
+
+span {
+    color: brown;
+}
+
+.bottomSubDiv {
+    margin: 30px 30px 30px 30px;
+    font-size: 20px;
+    
+}
+
+/* CSS for the right section */
+.rightDiv {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightImage {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 8px;
+
+    /* Smooth fade on all edges */
+    mask-image: radial-gradient(
+        ellipse at center,
+        black 60%,
+        rgba(0, 0, 0, 0.8) 75%,
+        rgba(0, 0, 0, 0.3) 90%,
+        transparent 100%
+    );
+    -webkit-mask-image: radial-gradient(
+        ellipse at center,
+        black 60%,
+        rgba(0, 0, 0, 0.8) 75%,
+        rgba(0, 0, 0, 0.3) 90%,
+        transparent 100%
+    );
+}
+
+/* This is out of syllabus thingy to make the webpage look more amazing */
+.bottomSubDiv {
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    color: #3c0f0f;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.717);
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+    cursor: default;
+}
+
+.bottomSubDiv:hover {
+    transform: scale(1.05);
+    opacity: 1;
+    color: #a30000;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+
+/* Target all text elements */
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+p:hover,
+span:hover {
+    transform: scale(1.05);           /* Slight zoom */
+    color: crimson;                  /* Intense color */
+    letter-spacing: 2px;             /* Spaced letters */
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;                 /* Visual cue for interactivity */
+}
